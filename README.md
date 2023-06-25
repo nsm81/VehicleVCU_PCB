@@ -8,8 +8,8 @@ The VehicleVCU provides three CANBUS transceivers for communication within a veh
 ## Block Diagram
 ![Render](images/VehicleVCUBlockDiagram.png)
 
-## PinOut
-| First Header  | Second Header |
+## MCU IO
+| Description  | IO |
 | ------------- | ------------- |
 | Button 1 | IO4 |
 | Button 2 | IO3 |
@@ -26,4 +26,17 @@ The VehicleVCU provides three CANBUS transceivers for communication within a veh
 | MISO | IO31 |
 | MOSI | IO32 |
 | SCLK | IO30 |
+
+## DTM PinOut
+| Pin  | Description |
+| ------------- | ------------- |
+| 1 | GLV+ |
+| 2 | CAN3L |
+| 3 | CAN2L |
+| 4 | CAN1L |
+| 5 | CAN1H |
+| 6 | CAN2H |
+| 7 | CAN3H |
+| 8 | GND |
+
 
