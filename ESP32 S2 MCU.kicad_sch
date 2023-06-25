@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "VehicleVCU")
+    (date "2023-06-26")
+    (rev "V2.0")
+    (company "Niko Smith")
+  )
+
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
@@ -1475,7 +1482,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2103291236_Yangxing-Tech-OT252040MJBA4SL_C669071.pdf" (at 31.115 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C669071" (at 36.83 100.33 0)
+    (property "LCSC" "C717687" (at 36.83 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 70758905-5c49-425b-96bd-b0bf9214c3ab))
