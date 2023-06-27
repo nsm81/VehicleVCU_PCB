@@ -229,7 +229,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/3ff0a2dd-f02b-4bde-8cce-ed19f0c66052")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C12" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f89f13db-e000-418d-9f13-f0c6360f93c7)
@@ -283,7 +283,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/a964b88c-f632-4a3a-8c91-a87b59e0dd31")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R1" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 23fba1cd-8929-4e97-84a9-7490cbf46404)
@@ -337,7 +337,7 @@
     (property "ki_description" "Ferrite bead, small symbol")
     (property "ki_keywords" "L ferrite bead inductor filter")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/0fbff245-9d5e-4019-bc30-002c3e454d50")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "FB1" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 45387726-ee90-4498-b0d5-d27957a2242f)
@@ -389,7 +389,7 @@
     (property "ki_description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/aa5bf493-6bc6-4812-ac6b-6cb478f8e6de")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J2" (at -22.88685 -19.07239) (layer "F.SilkS") hide
         (effects (font (size 2.002346 2.002346) (thickness 0.15)))
       (tstamp 1877bdfc-5da4-4f07-bf5b-9690917b0d42)
@@ -452,7 +452,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d33ecb9f-aef9-4a88-98e1-b1071664fc02")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C14" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4fc8138e-3b90-4abc-8e4b-131aa7bb0566)
@@ -507,7 +507,7 @@
     (property "ki_description" "Crystal Clock Oscillator, Abracon ASCO")
     (property "ki_keywords" "Crystal Clock Oscillator")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/2c1e814a-4ce4-4069-913b-fcb7a4642cc2")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "X1" (at 0 -2.45 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a2e51646-af8f-4af3-9f72-5101117d9af8)
@@ -565,7 +565,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/8c76110d-2bfe-489d-961b-bbb9d6ea32ee")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R25" (at 0 -1.43 -315) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e7adda96-8920-4adf-a422-0ac34af6a571)
@@ -619,7 +619,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/7a53d644-2107-420d-a71a-3608d6a37b9e")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW3" (at 0 -4.5 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 27f74e91-ba1e-4bee-a046-59864fa100b4)
@@ -691,7 +691,7 @@
     (property "ki_description" "100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363")
     (property "ki_keywords" "NPN/NPN Transistor")
     (path "/629ff046-964f-42a5-9e82-1c45f7ae719b")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "Q1" (at 0 -2) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d47e825e-cd51-42c9-8f3c-db6b30b51a82)
@@ -755,7 +755,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/db933bf8-6689-404f-8e11-da392dc15bed")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R6" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 18c07568-d621-4c80-b27f-5b915fceeb8d)
@@ -809,7 +809,7 @@
     (property "ki_description" "Stand-Alone CAN Controller with SPI Interface, SOIC-18")
     (property "ki_keywords" "CAN Controller SPI")
     (path "/2d9a305a-42c7-4d6b-b511-1eddc873682b")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "U8" (at 0 -6.72 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7d1e1962-0271-48c5-bfaf-3242e96b3653)
@@ -911,7 +911,7 @@
     (property "ki_description" "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8")
     (property "ki_keywords" "can transeiver ti low-power")
     (path "/11744662-a2d3-465e-99ea-20d5e393e8ca")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "U5" (at 0 -3.4 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7aa915c0-9be8-47a0-b1ba-c9b685ff7812)
@@ -983,7 +983,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/60a62e1b-5236-469b-afcf-93cb1505ca6c")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R9" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 43766608-f822-443d-ac32-74ea9b58f128)
@@ -1037,7 +1037,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/28e8d53c-ba64-4e04-a2d0-9cc7e580d0de")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C2" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5338dce3-b675-4035-ba16-68592b06ec71)
@@ -1091,7 +1091,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/85f44be4-1117-4ee1-ae7f-0b5733abf696")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R5" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1662b574-f1d4-4c71-9223-8c21509b1707)
@@ -1145,7 +1145,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/4cc9e891-08ec-450b-bd32-4648fe6e883d")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C17" (at 0 -1.43 -270) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5949241f-f8f3-4720-9fd5-8dc9236b8290)
@@ -1199,7 +1199,7 @@
     (property "ki_description" "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8")
     (property "ki_keywords" "can transeiver ti low-power")
     (path "/bdb92e83-02b3-40ca-abe8-c08231a8782f")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "U4" (at 0 -3.4 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ce3bac8b-9f69-46cb-b409-030cfa30dc9c)
@@ -1271,7 +1271,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/bf17c2e5-e836-4f20-9d1c-921f0c0f7c09")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C9" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e423d42c-86b0-4a19-80b4-370757eca264)
@@ -1325,7 +1325,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/ec5c4f20-2e6e-496f-acb4-d85dbf7b56bf")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R2" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 393213c7-2136-4248-9b2f-3e46a85206cd)
@@ -1379,7 +1379,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/5866f3fb-17ef-4cb8-b6f4-5f31c3d1437f")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R19" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 763d3b9e-6adf-4631-aaae-32d463533e15)
@@ -1433,7 +1433,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/b3fbc4e1-17f5-40f2-be39-ad788145cb17")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R22" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0c491395-1b81-4f4f-8985-26b276b1da15)
@@ -1488,7 +1488,7 @@
     (property "ki_description" "Light emitting diode")
     (property "ki_keywords" "LED diode")
     (path "/7ee66605-f179-44db-b45b-7be6c42c1912")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D6" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 70bb6fb4-5cd8-4773-b481-2174382b64f6)
@@ -1547,7 +1547,7 @@
     (property "ki_description" "Light emitting diode")
     (property "ki_keywords" "LED diode")
     (path "/1c63f142-a67b-450e-800d-69b720afb171")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D8" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cf0352b7-58a9-4868-93df-3f56d8abc16e)
@@ -1605,7 +1605,7 @@
     (property "ki_description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23")
     (property "ki_keywords" "transient voltage suppressor thyrector transil")
     (path "/c10ba59a-2be5-4197-98bd-fcb6a0ba1161")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D5" (at 0 -2.4 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 93e502a3-4c76-454a-baf6-6a37b64750cb)
@@ -1667,7 +1667,7 @@
     (property "ki_description" "USB serial converter, UART, SOIC-16")
     (property "ki_keywords" "USB UART Serial Converter Interface")
     (path "/b5d46899-3dad-4e6e-a2be-07f0d7ef85f5")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "U3" (at 0 -5.9 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a86b21b5-5255-47aa-b4a6-3fe58e44a263)
@@ -1755,7 +1755,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/ba278ea4-c2ba-4838-94ee-e9d04908f3d5")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R3" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2b74e7da-0ef8-406c-b27a-e151a955704c)
@@ -1809,7 +1809,7 @@
     (property "ki_description" "P-MOSFET transistor, gate/source/drain")
     (property "ki_keywords" "transistor PMOS P-MOS P-MOSFET")
     (path "/c78c896d-aa6c-46fc-be7e-0fbdfc73f5aa")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "Q2" (at 0 -2.4) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 07b99602-a218-459b-8b4e-f967233dc9f8)
@@ -1871,7 +1871,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2901b2dc-1a2c-4889-b091-c041815f896a")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW2" (at 0 -4.5 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bcefca5d-3f48-4b98-a912-4759d460264f)
@@ -1943,7 +1943,7 @@
     (property "ki_description" "Fuse")
     (property "ki_keywords" "fuse")
     (path "/fa377c4c-967a-48f1-b3ce-b6b2a49e72c3")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "F1" (at 0 -1.82 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8e36660f-0ff4-4bc8-b7e0-d9fb0cbcac5f)
@@ -1997,7 +1997,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/79bb565e-5f1e-4532-9c2d-f7bf854079f1")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R11" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7c1c87ea-0cb4-41bd-bf89-45f684b5371a)
@@ -2051,7 +2051,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/b4e4be0c-c73a-449e-88ad-ba5173342279")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C27" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d0d649f2-3e47-4bb3-a937-d8a48b16baae)
@@ -2105,7 +2105,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/2ee16f9f-affd-4b93-9650-bd18fe33c38c")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C25" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 757fbb0d-55c0-43db-ae9a-c2e37c263d13)
@@ -2159,7 +2159,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/af2be9e6-cc20-4ea2-8fb7-a469645e0b7a")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R20" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 83d8f8cb-8f75-45b7-84fc-dc30720edc2b)
@@ -2213,7 +2213,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/c58e64aa-afd7-4735-9bff-0c0a77a0cd34")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R23" (at 0 -1.43 -270) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 416bf7c6-cffd-4769-a3fd-8dd80c1bcd0b)
@@ -2268,7 +2268,7 @@
     (property "ki_description" "Crystal Clock Oscillator, Abracon ASCO")
     (property "ki_keywords" "Crystal Clock Oscillator")
     (path "/51131427-4e6c-475b-b629-f03acbd93434")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "X3" (at 0 -2.45 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dc631ed2-c697-461f-939f-85a5b23043c3)
@@ -2344,7 +2344,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/ca73cf14-c70e-48d8-8a6a-04f78a644e1f")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R10" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 80488578-d8fe-4790-ae22-ca6e5fe4c469)
@@ -2398,7 +2398,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/ada60510-30c7-40bd-8b04-7212b8201670")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C26" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b99165be-4fea-45b3-a2a7-20f7811ebaf7)
@@ -2452,7 +2452,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/52cc2839-a008-40bf-ac5f-b293b72713df")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C1" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 83e75623-6cdf-4b1f-afbe-e12ffb259dcd)
@@ -2507,7 +2507,7 @@
     (property "ki_description" "Light emitting diode")
     (property "ki_keywords" "LED diode")
     (path "/dd479059-7a90-4d07-8e54-41233a6b78a6")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D7" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bca44565-bd6d-453f-bfc3-0fe6bddc0b98)
@@ -2566,7 +2566,7 @@
     (property "ki_description" "Light emitting diode")
     (property "ki_keywords" "LED diode")
     (path "/09088aa5-5bc6-4453-a72a-7fc5daa21ceb")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D12" (at 0 -1.43 45) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5d5151c1-2d7e-49c5-ae05-d1d728b6a2e0)
@@ -2624,7 +2624,7 @@
     (property "ki_description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223")
     (property "ki_keywords" "linear regulator ldo fixed positive")
     (path "/c6a5191c-498e-47f8-9780-0d5ce9680ea9")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "U9" (at 0 -4.5 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7a9d9bcc-aef4-4736-b7a5-cb0fae49619a)
@@ -2688,7 +2688,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/c32248de-3086-4b73-a4ee-d33fd49614b1")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C5" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9e3e16d0-0950-4177-b43e-819420425b84)
@@ -2742,7 +2742,7 @@
     (property "ki_description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6")
     (property "ki_keywords" "usb ethernet video")
     (path "/5495b90a-acf1-4c1d-8adf-6abbc5c3576d")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "U1" (at 0 -2.4 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 81136c96-72c9-411e-80ee-379c42a53e3c)
@@ -2810,7 +2810,7 @@
     (property "ki_description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223")
     (property "ki_keywords" "linear regulator ldo fixed positive")
     (path "/374b83e6-0abf-42bc-bc2c-a5e89350f6e8")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "U10" (at 0 -4.5 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a2bb4496-b186-483b-a857-f61fce8cc3bf)
@@ -2874,7 +2874,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/11da4256-6bff-4d63-ba4c-3d66ac81cb21")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C8" (at 0 -1.43 -270) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 39a167ad-f76a-4fd5-b80f-a7cff3af156e)
@@ -2928,7 +2928,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/5980036d-8f27-463f-a0c0-b49fe5442035")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R16" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6946257d-8830-4e66-b05c-6201e04816c4)
@@ -2982,7 +2982,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/682842c5-1b2e-469f-afcc-6bddae76b118")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R8" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c4555459-f039-469f-9483-b3211db66ab9)
@@ -3036,7 +3036,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/d3af778f-3be8-4b0f-bf5d-c74497da0181")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D1" (at 0 -2.5 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cde4b769-f54a-4358-a04a-24d1482af2d0)
@@ -3104,7 +3104,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/ec79b319-5671-4aa9-b802-75fff7cb414f")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C13" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 51261416-12c0-46da-90d6-8f722ad451c8)
@@ -3158,7 +3158,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/1f761236-4c8b-46be-98df-11516b79c70e")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C24" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e00169ab-c89e-4c40-90c1-fb16f59386e5)
@@ -3213,7 +3213,7 @@
     (property "ki_description" "Light emitting diode")
     (property "ki_keywords" "LED diode")
     (path "/687b5fc3-39a8-4491-bfe9-903aa7d4693d")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D9" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f58a1286-11c4-4f5b-aa4d-269b3b15b46f)
@@ -3271,7 +3271,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/2cf2b5c8-20fe-41f8-8db4-e0832d375722")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C7" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 69bcd189-b137-490c-bfcb-b74b9b2828d5)
@@ -3325,7 +3325,7 @@
     (property "ki_description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23")
     (property "ki_keywords" "transient voltage suppressor thyrector transil")
     (path "/e9e51796-0765-4f77-94ca-7e886e6fe47c")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D4" (at 0 -2.4 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 35abc9bb-d07f-44df-ad9c-a9c425638a23)
@@ -3387,7 +3387,7 @@
     (property "ki_description" "Jumper, 3-pole, pins 1+2 closed/bridged")
     (property "ki_keywords" "Jumper SPDT")
     (path "/2e42af9d-7225-4a7f-9a7a-2c619968af66")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP1" (at 0 -2.33) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 68dcbaae-70ea-4f73-9e4f-331a5117a066)
@@ -3453,7 +3453,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/30b9a86d-9978-4e27-be05-a8c4096d74be")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C10" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f8988419-46ec-4046-bc58-50cc8be7c5bc)
@@ -3507,7 +3507,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/b887ea70-e7c1-4e9a-a45a-067eed9bbd8d")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R21" (at 0 -1.43 -270) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cb2e9738-5742-439e-af98-19e9739ade3d)
@@ -3561,7 +3561,7 @@
     (property "ki_description" "USB Type B connector")
     (property "ki_keywords" "connector USB")
     (path "/ace66b06-9157-4624-aeeb-90867a72b4e7")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J1" (at 7.5 -7.65 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1c946f14-3556-4cec-9495-7ed904b9fafe)
@@ -3641,7 +3641,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/6ba6f13b-b635-4919-b1c9-c71cd0e9804b")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C3" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bbccd602-6b77-4e9f-8e5d-3261e95de5b0)
@@ -3695,7 +3695,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/d99962b3-08e9-4257-a190-40563768d70b")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R12" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 29db65a8-6170-4199-af76-ca6f00d193d3)
@@ -3749,7 +3749,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/b93b93cb-6a88-485d-865e-8f7522e997e3")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C28" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2b92eeb3-0050-4039-bed3-95c387ca2bf2)
@@ -3804,7 +3804,7 @@
     (property "ki_description" "Light emitting diode")
     (property "ki_keywords" "LED diode")
     (path "/93e5176a-d4c3-48bf-97ad-f84311c66fe4")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D11" (at 0 -1.43 45) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8ce64b6d-4171-46a9-9d60-452fce0a2d5a)
@@ -3862,7 +3862,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/57c3fa66-ef35-4695-aae2-ead9259204ef")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R7" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e3a11ff0-bc7c-44e6-b7ff-07b65077f19b)
@@ -3917,7 +3917,7 @@
     (property "ki_description" "Light emitting diode")
     (property "ki_keywords" "LED diode")
     (path "/3188a24a-5c95-4e4f-809c-81bf7be9ccdb")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D10" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 57370e32-8922-4a18-9276-61e04899a459)
@@ -3975,7 +3975,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/10198b9e-f954-48d0-bdc1-89a3e4e311a4")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R15" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 76d78b0d-5763-4ca2-82b4-8a7ee803afbe)
@@ -4029,7 +4029,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/e2f0cd2b-10b1-4a13-a787-932c3c262f88")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R18" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a11ba168-3968-4320-81ea-8a765a459e14)
@@ -4083,7 +4083,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/b76709b0-44be-4f5b-a92b-aef1e49b5c9a")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW1" (at 0 -4.5 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7b272dd4-6ba2-4150-ac4f-2e58c4730e70)
@@ -4155,7 +4155,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/4f7c796d-5a83-4006-9173-89e5e488887b")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C16" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 23336824-80ea-4d06-89be-a92027a4ef9c)
@@ -4209,7 +4209,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/0324214e-b8fe-4f3f-86a7-a4c4161d4865")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C18" (at 0 -1.43 -270) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 08756b3f-29fe-4104-83d4-921307b60240)
@@ -4263,7 +4263,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/be2d321b-888c-473b-a335-f5ae4631620d")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R13" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2b9baa42-450d-4292-a96c-8234aaa46d2f)
@@ -4317,7 +4317,7 @@
     (property "ki_description" "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8")
     (property "ki_keywords" "can transeiver ti low-power")
     (path "/930af9b4-a0d0-499e-89b1-bc943f2b1c40")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "U7" (at 0 -3.4 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 74be6ca0-e920-403b-8a3f-b3e87be4eafc)
@@ -4389,7 +4389,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/87284149-f26f-4511-a9b9-7fb0eebb9866")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C11" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2b9024d4-f240-48a1-b114-0c68858584ce)
@@ -4443,7 +4443,7 @@
     (property "ki_description" "Jumper, 3-pole, pins 1+2 closed/bridged")
     (property "ki_keywords" "Jumper SPDT")
     (path "/4c0da108-681d-401a-829d-d517f8d121c8")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP3" (at 0 -2.33) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 057f9de9-87fd-4f33-9d1a-a0d4520482c4)
@@ -4509,7 +4509,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/ec328048-8e0e-4efe-b842-2db614afe85e")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C23" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aeff871a-46e9-4926-bae1-002164f5a06f)
@@ -4564,7 +4564,7 @@
     (property "ki_description" "Light emitting diode")
     (property "ki_keywords" "LED diode")
     (path "/d76e682c-0d94-49d0-9947-51ef05bc944e")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D2" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ab5187c5-b421-4616-b5cc-87f9cb51f8f9)
@@ -4622,7 +4622,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/5af82fbd-7960-4ea0-8aaa-75d26e4931ec")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R17" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 775f79e5-3132-4cda-ab74-4652fd69aed7)
@@ -4676,7 +4676,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/e104069f-2e20-49db-acd6-06154e943e18")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R14" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1b95398f-f686-4ffa-8f3c-4536c39193b5)
@@ -4729,7 +4729,7 @@
     (property "Sheetname" "ESP32 S2 MCU")
     (property "ki_description" "ESP32-S2 family is a highly-integrated, low-power, 2.4GHz Wi-Fi System-on-Chip (SoC) solution.")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/195a0094-6ba6-4fca-b0b3-21b297f55773")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "U2" (at 0 -4.82) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ccad329b-cfdc-4732-af1c-e3c8eeadb5f7)
@@ -4921,7 +4921,7 @@
     (property "ki_description" "Jumper, 3-pole, pins 1+2 closed/bridged")
     (property "ki_keywords" "Jumper SPDT")
     (path "/25a7691e-7026-4f9b-938b-814e81bd9c4e")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP2" (at 0 -2.33) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fe500d4a-26ca-4c64-89a9-74d6e40b8b81)
@@ -4987,7 +4987,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/c256a81c-275b-4374-9ff4-b716e18d72b1")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C15" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4ee946ee-8f6f-464d-b93d-40204cee759f)
@@ -5041,7 +5041,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/529e007d-73f4-4c3a-aeaa-47dd185ce259")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R24" (at 0 -1.43 45) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7be8f986-06df-4704-b546-24a1bbb339ab)
@@ -5095,7 +5095,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/d5839a64-8bc0-491d-8943-a45e73c09e6d")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R26" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d168a139-eb17-4070-8d8d-4a6818a7f0fa)
@@ -5149,7 +5149,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/d0235125-10e5-4dbb-930d-51cf0e976e9b/4f68497e-efdf-4142-9348-33bea083b253")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C6" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d52ea82d-dc06-4c1c-b678-eb546396983a)
@@ -5203,7 +5203,7 @@
     (property "ki_description" "Stand-Alone CAN Controller with SPI Interface, SOIC-18")
     (property "ki_keywords" "CAN Controller SPI")
     (path "/7120cea3-331c-4af9-b2f9-3549f12dfd4d")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "U6" (at 0 -6.72 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 74fd1b1b-5a8d-4cfa-a939-16f883d202e5)
@@ -5305,7 +5305,7 @@
     (property "ki_description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23")
     (property "ki_keywords" "transient voltage suppressor thyrector transil")
     (path "/157071a7-0dab-439e-bd40-edeb065c4985")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D3" (at 0 -2.4 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 102c80fc-bbf0-4eba-9c54-f01bea4de103)
@@ -5367,7 +5367,7 @@
     (property "ki_description" "Resistor, small symbol")
     (property "ki_keywords" "R resistor")
     (path "/762d6104-3bd3-4afd-b470-f3ff40bd29ed")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "R4" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 87b0419b-ab11-47a9-91aa-9b084dc40566)
@@ -5421,7 +5421,7 @@
     (property "ki_description" "Unpolarized capacitor, small symbol")
     (property "ki_keywords" "capacitor cap")
     (path "/61a784a0-1157-42e0-bef1-a2c3c7299c96")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "C4" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a89976ed-254f-4b22-ae86-b4ea8342312d)
